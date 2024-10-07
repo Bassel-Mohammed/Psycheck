@@ -1,0 +1,115 @@
+
+
+@media (max-Width: 992px) {
+
+
+/* top section edit start */
+
+
+
+.top-section{
+  font-size: 2em;
+}
+
+.top-section h1{
+  font-size: 60px;
+
+}
+
+.navbar-brand span{
+  font-size: 1.5em;
+}
+
+.nav-link{
+  margin-top: 20%;
+  font-size: 1em;
+}
+
+.dropdown-item{
+  font-size: 1.5em;
+  margin-top: 10%;
+}
+
+.welcom-section{
+  width: 70%;
+}
+
+.intro{
+  width: 100%;
+}
+
+
+
+/* top section edit end */
+
+
+
+  /* test form section edit start */
+
+  .test-section{
+    font-family: "Tajawal", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-align: right;
+    margin-left: auto; /* Push the section to the right */
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+  }
+
+
+
+  .test-section .question .answer{
+    display: inline-flex;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+
+  .test-section .question .answer input{
+    width: 50px;
+    height: 50px;
+  }
+
+  .test-section .question .answer label{
+    font-size: 2rem;
+  }
+
+
+  /* test form section edit end  */
+
+  /* advice edit start */
+.advices-section img{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+
+.img-container{
+  display: grid;
+  grid-template-columns: repeat(1, 3fr); /* Creates 3 equal columns */
+  /* gap: 5px; /* Space between the images */ */
+}
+
+
+  /* advice edit end */
+
+
+
+
+  /* footer section edit start */
+footer{
+  font-size: 1.6em;
+  margin-top: 10%;
+}
+
+
+
+
+
+
+  /* footer section edit end */
+
+}

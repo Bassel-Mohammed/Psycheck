@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- BootStrap Link -->
+    <link rel="stylesheet" href="../CSSFiles/bootstrap.css">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="../CSSFiles/Style.css">
+
+    <!-- SCSS Style -->
+    <link rel="stylesheet" href="../CSSFiles/Style.scss">
+
+    <!-- Responsive CSS Style -->
+    <link rel="stylesheet" href="../CSSFiles/responsive.css">
+
+    <!-- Google fonts code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@600&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <title></title>
+  </head>
+  <body>
+
+
+        <!-- header section strats -->
+        <section class="top-section">
+          <div class="note">
+            <h5>هذه النسخة الاولى التجريبية لهذا الموقع</h5>
+
+          </div>
+        <header class="header_section">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="../index.html">
+                <img src="images/GreenLogo.png" alt="">
+                <span>
+                  Psycheck
+                </span>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <!-- <a class="nav-link" href="index.html">من نحن؟ <span class="sr-only">(current)</span></a> -->
+                    </li>
+                    <li class="nav-item">
+
+
+                      <div class="dropdown">
+      <a class=" nav-link btn dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        اختبارات
+      </a>
+
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="jobBurnOutTest.html">اختبار الاحتراق الوظيفي</a></li>
+        <li><a class="dropdown-item" href="#"></a></li>
+        <li><a class="dropdown-item" href="#"></a></li>
+      </ul>
+    </div>
+
+
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+
+
+        <!-- header section end -->
+
+<section class="welcom-section">
+
+
+        <h1>الاحتراق الوظيفي</h1>
+        <p class="intro"> الاحتراق الوظيفي هو حالة من الإرهاق الجسدي، العقلي، والعاطفي التي تنتج عن التعرض لضغوط مستمرة ومكثفة في بيئة العمل او الدراسة. يتميز الاحتراق الوظيفي بشعور دائم بالتعب وفقدان الحافز، إلى جانب انخفاض ملحوظ في مستوى الإنتاجية. هذه الحالة يمكن أن تؤثر بشكل كبير على الصحة النفسية والجسدية. عادة ما يصاب الأفراد بالاحتراق الوظيفي نتيجة العمل لفترات طويلة دون فترات راحة كافية، أو تحمل مسؤوليات تفوق قدرتهم، أو العمل في أجواء مرهقة نفسيًا وعاطفيًا. إذا لم يتم التعامل مع هذه المشكلة، قد تؤدي إلى مشكلات صحية خطيرة مثل الاكتئاب، القلق، واضطرابات النوم، مما يستدعي ضرورة توفير الدعم والمساعدة للموظفين لمواجهة هذه الضغوط.</p>
+
+</section>
+
+
+
+</section>
+
+
+
+<section class="test-section">
+
+  <h2>حاول ان تجيب على جميع الاسئلة بدقة لتحصل على نتيجة دقيقة</h2>
+
+  <form id="form1" class="questions-form" onsubmit="test(event);" method="post" >
+
+    <div class="questions-box">
+
+
+
+    <div class="question colored">
+    <h3>اشعر بالارهاق و استنزاف الطاقة النفسية و الجسدية</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question1" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question1" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question1" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question1" value="4">
+    </div>
+    </div>
+
+
+
+    <!-- question 2 -->
+
+    <div class="question ">
+    <h3>لدي افكار سلبية اتجاه وظيفتي او دراستي</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question2" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question2" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question2" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question2" value="4">
+    </div>
+    </div>
+
+
+    <!-- question 3 -->
+
+    <div class="question colored">
+    <h3>اصغر المشاكل تسبب لي انزعاج و ضغط كبير</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question3" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question3" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question3" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question3" value="4">
+    </div>
+    </div>
+
+
+    <!-- question 4 -->
+
+    <div class="question">
+    <h3>اشعر ان زملائي في العمل او الدراسة يسئون فهمي ولا سوء التقدير</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question4" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question4" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question4" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question4" value="4">
+    </div>
+    </div>
+
+    <!-- question 5 -->
+
+    <div class="question colored">
+    <h3>اشعر اني احصل على اقل من ما استحق</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question5" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question5" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question5" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question5" value="4">
+    </div>
+    </div>
+
+    <!-- question 6 -->
+
+    <div class="question">
+    <h3>اشعر بالفشل و ان النجاح يحتاج الى جهد اعلى من طاقتي</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question6" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question6" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question6" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question6" value="4">
+    </div>
+    </div>
+
+
+    <!-- question 7 -->
+
+    <div class="question colored">
+    <h3>اشعر بانه لا يوجد لدي وقت كافي للقيام بجميع المهام المطلوبة</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question7" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question7" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question7" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question7" value="4">
+    </div>
+    </div>
+
+
+
+    <!-- question 8 -->
+
+    <div class="question">
+    <h3>اكره رؤية كل ما له علاقة بالعمل او الدراسة</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question8" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question8" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question8" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question8" value="4">
+    </div>
+    </div>
+
+
+    <!-- question 9 -->
+
+    <div class="question colored">
+    <h3>ارغب في الجلوس مع نفسي و الابتعاد عن الجميع</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question9" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question9" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question9" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question9" value="4">
+    </div>
+    </div>
+
+    <!-- question 10 -->
+
+    <div class="question">
+    <h3>اشعر بتوتر دائم و اجد صعوبة في اتخاذ القرارات</h3>
+    <div class="answer">
+      <label for="">ابدا</label>
+      <input type="radio" name="question10" value="1" required>
+    </div>
+
+    <div class="answer">
+      <label for="">نادرا</label>
+      <input type="radio" name="question10" value="2">
+    </div>
+
+    <div class="answer">
+      <label for="">غالبا</label>
+      <input type="radio" name="question10" value="3">
+    </div>
+
+    <div class="answer">
+      <label for="">دائما</label>
+      <input type="radio" name="question10" value="4">
+    </div>
+    </div>
+
+      </div>
+
+
+    <button id="button" type="submit" class="submit-btn btn btn-primary btn-lg" onclick="showBurnOutAdvices();" value="jobBurnOutTest">عرض النتيجة</button>
+  </form>
+
+
+
+
+
+</section>
+
+
+
+<footer class="footer-section">
+
+<p>Psycheck جميع الحقوق محفوظة لدى</p>
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+        <script src="../JavaScriptfiles/jquery-3.4.1.min.js"></script>
+        <script src="../JavaScriptfiles/bootstrap.js"></script>
+        <script src="../JavaScriptfiles/main.js" ></script>
+
+
+  </body>
+</html>
